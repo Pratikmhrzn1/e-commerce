@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+body {
+  font-family: "Lato", serif;
+  font-size: 14 px;
+}
+.headerWrapper {
+  background: #233a95;
+  padding: 8px;
+}
+.headerWrapper.top-strip {
+  padding: 8px 0px;
+}
+.headerWrapper p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+.headerWrapper.header {
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+}
+.logoWrapper img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  margin-left: -170px;
+}
+.part2 {
+  display: flex; /* Use flexbox for button alignment */
+  justify-content: flex-start; /* Align button to the right */
+  flex-grow: 1;
+  margin-left: 120px;
+  margin-bottom: 1000px;
+  margin-top: -130px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  left: 30px;
+}
+.countryDrop {
+  background-color: #f8f9fa; /* Bootstrap primary color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Top/Bottom and Left/Right padding */
+  border: 1px solid azure !important;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease;
+  right: 15px;
+}
+.countryDrop:hover {
+  border-color: black; /* Darker shade for hover effect */
+}
+
+.countryDrop:focus {
+  outline: none; /* Removes default focus outline */
+  box-shadow: azure; /* Custom focus style */
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns text to the left */
+  margin-right: 15px;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.headerSearch input {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  width: 500px;
+  margin-bottom: 0px;
+  height: 100%;
+  text-align: justify;
+}
+.headerSearch button {
+  position: absolute;
+  right: 230px;
+  top: 20px;
+  min-width: 45px;
+  min-height: 40px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+}
+.hello {
+  display: flex;
+  margin-right: 10px;
+}
+.headerSearch button svg {
+  font-size: 25px;
+}
+.circle {
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  color: #000;
+  border-radius: 50% !important;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.circle:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+.circle svg {
+  font-size: 30px;
+  display: flex !important;
+}
+.price {
+  font-size: 15px;
+  font-weight: 700 !important;
+}
+.price:hover {
+  background-color: #e2e6ea; /* Slightly darker on hover */
+  color: #000; /* Darker text color on hover */
+}
+.cartTab button {
+  background: #fff1ee !important;
+  left: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+.cartTab button:hover {
+  background-color: #fe461d !important;
+  transform: scale(1.1);
+  border: none !important;
+}
+.cartTab button svg {
+  color: #ea2b0f !important;
+}
+.count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  background-color: #ff4d4f; /* Badge background color */
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white; /* Optional white border for clarity */
+}
+
+.count:hover {
+  background-color: #e04343; /* Slightly darker red on hover */
+}
